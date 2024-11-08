@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDHARTH P.N - Student Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Header and Navigation */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+
+        /* Intro Section */
+        .intro-text {
+            text-align: center;
+            padding: 2rem;
+            background-color: #eee;
+        }
+
+        .intro-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* About Section */
+        #about {
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            max-width: 800px;
+        }
+
+        .about-image {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .about-text h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 2rem;
+            background-color: #eee;
+        }
+
+        .skills-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .skills-container h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list h2 {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .skill-bar {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .skill-level {
+            padding: 0.5rem;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .html { background: #e34c26; width: 90%; }
+        .css { background: #2965f1; width: 80%; }
+        .js { background: #f0db4f; width: 70%; color: #333; }
+        .react { background: #61dbfb; width: 60%; color: #333; }
+        .sql { background: #00758f; width: 75%; }
+        .git { background: #f1502f; width: 85%; }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .social-media a {
+            color: #fff;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #ffa500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Intro Section -->
+    <section class="intro-text">
+        <h1>Hello, I'm Sidharth!</h1>
+        <p>Welcome to my portfolio</p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <img src="images/node.png" alt="Sidharth P.N" class="about-image">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Sidharth P.N, a student at CUSAT pursuing MVoc in Software Application Development. I have a passion for coding and technology.</p>
+            </div>
+        </div>
+    </section>
+     
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-container">
+            <h1>Skills</h1>
+            <p>Below are some of the technical skills I have acquired:</p>
+            <ul class="skills-list">
+                <li>
+                    <h2>Programming Languages</h2>
+                    <div class="skill-bar">
+                        <div class="skill-level html">HTML</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level css">CSS</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level js">JavaScript</div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Frameworks & Libraries</h2>
+                    <div class="skill-bar">
+                        <div class="skill-level react">React.js</div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Database Management</h2>
+                    <div class="skill-bar">
+                        <div class="skill-level sql">SQL</div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Version Control</h2>
+                    <div class="skill-bar">
+                        <div class="skill-level git">Git & GitHub</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sidharth P.N</p>
+        <div class="social-media">
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
